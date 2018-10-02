@@ -16,7 +16,11 @@ namespace CDVDMerger
                 string Parent_Name = Path.GetDirectoryName(arg);
 
                 List<string> Clones = GetClones(arg);
-                
+
+                foreach (string Clone in Clones)
+                {
+                    List<string> Dirs_and_Files = new List<string>();
+                }
             }
         }
 
